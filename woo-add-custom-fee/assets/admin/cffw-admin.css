@@ -1,0 +1,129 @@
+.sidebar-guarantee {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #333;
+    background: #F9DBAA;
+    max-width: 530px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid #F9DBAA;
+}
+
+@media screen and (min-width: 1700px) {
+  .wacf-sidebar {
+        height: 60%;
+        top: 50%;
+    }
+}
+
+.header h1 {
+    font-size: 28px;
+    margin: 0;
+    line-height: 1;
+}
+
+.header h1 span {
+    color: #ff8c00;
+}
+
+.popup-guarantee {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #333;
+    background: #F9DBAA;
+    max-width: 530px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid #F9DBAA;
+}
+
+.guarantee-item {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+}
+
+span.guarantee-item svg {
+    margin-right: 8px;
+}
+
+.features {
+	 display: grid;
+    /* display: ruby-text; */
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.features li {
+    margin: 10px 0;
+    /* display: flex; */
+    align-items: center;
+    font-size: 13px;
+}
+
+.features li::before {
+    content: '✔';
+    color: #E6A53A;
+    margin-right: 10px;
+}
+
+.popup-btn {
+    text-decoration: none;
+    background: #FDB642;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    transition: background 0.3s;
+}
+
+.popup-btn:hover {
+    background: #ff6f00;
+}
+
+.wacf-sidebar {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(159deg, rgba(255, 255, 255, 1) 0%, rgb(253 182 66 / 23%) 58%, rgba(255, 255, 255, 1) 100%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 17%;
+    left: 65%;
+	z-index: 9;
+}
+
+.sidebar-guarantee {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #333;
+    background: #F9DBAA;
+    max-width: 530px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid #F9DBAA;
+}
+.popup-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: auto;
+    cursor: pointer;
+}
